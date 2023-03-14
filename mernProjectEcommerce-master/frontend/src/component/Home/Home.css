@@ -1,3 +1,4 @@
+
 .banner {
   background-image: url("../../images/cover.jfif");
   background-position: center;
@@ -14,7 +15,6 @@
 
 .banner > h1 {
   margin: 5vmax;
-
   font: 600 2.5vmax "Roboto";
 }
 
@@ -33,6 +33,7 @@
   width: 9vmax;
   font: 500 1vmax "Roboto";
 }
+
 .banner > a > button:hover {
   background-color: rgba(255, 255, 255, 0);
   color: white;
@@ -49,6 +50,8 @@
   clip-path: polygon(100% 68%, 0 100%, 100% 100%);
   max-width: 100%;
 }
+
+/* Home Page Content */
 
 .homeHeading {
   text-align: center;
@@ -102,37 +105,4 @@
   font-size: 1.2vmax;
   margin: 1vmax 0.5vmax;
   margin-bottom: 0;
-}
-
-.productCard > span {
-  margin: 0.5vmax;
-  color: tomato;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 1vmax;
-}
-
-.productCard:hover {
-  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
-
-  transform: translateY(-1vmax);
-}
-
-@media screen and (max-width: 600px) {
-  .productCard > p {
-    font-size: 1.7vmax;
-  }
-
-  .productCard > div {
-    margin: 0vmax;
-    display: block;
-  }
-
-  .productCard > span {
-    font-size: 1.5vmax;
-  }
-
-  .productCard > div > span {
-    margin: 0 0.5vmax;
-    font: 300 1vmax "Roboto";
-  }
 }
