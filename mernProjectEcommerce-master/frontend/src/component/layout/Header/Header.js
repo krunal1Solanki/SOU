@@ -1,9 +1,11 @@
-import React from "react";import { ReactNavbar } from "overlay-navbar";
+import React from "react";
+import { ReactNavbar } from "overlay-navbar";
 import logo from "../../../images/logo.png";
+import ecommerceImage from "../../../images/ecommerce.png";
 
 const options = {
   burgerColorHover: "#eb4034",
-  logo,
+  logo: ecommerceImage, // assign the image to the logo property
   logoWidth: "20vmax",
   navColor1: "white",
   logoHoverSize: "10px",
@@ -32,6 +34,13 @@ const options = {
   searchIconColorHover: "#eb4034",
   cartIconColorHover: "#eb4034",
   cartIconMargin: "1vmax",
+
+  // add background color and style
+  navStyle: {
+    backgroundColor: "#333",
+    padding: "10px",
+    boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)",
+  },
 };
 
 const Header = () => {

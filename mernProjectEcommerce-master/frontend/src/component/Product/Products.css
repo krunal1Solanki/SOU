@@ -2,14 +2,17 @@
   margin: 2vmax auto;
   width: 15vw;
   border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+  z-index: 2;
   padding: 2vmax;
   color: rgba(0, 0, 0, 0.678);
   font: 500 1.5vmax "Roboto";
   text-align: center;
 }
 
-.products {
+.products {z-index: 2;
+  margin-left: 200px;
   display: flex;
+  z-index: 2;
   flex-wrap: wrap;
   padding: 0 5vmax;
   justify-content: center;
@@ -17,6 +20,7 @@
 }
 
 .paginationBox {
+  z-index: 2;
   display: flex;
   justify-content: center;
   margin: 6vmax;
@@ -25,6 +29,7 @@
 .pagination {
   display: flex;
   justify-content: center;
+  z-index: 2;
   padding: 0;
 }
 
@@ -32,64 +37,79 @@
   background-color: rgb(255, 255, 255);
   list-style: none;
   border: 1px solid rgba(0, 0, 0, 0.178);
+  z-index: 2;
   padding: 1vmax 1.5vmax;
   transition: all 0.3s;
   cursor: pointer;
 }
 .page-item:first-child {
+  z-index: 2;
   border-radius: 5px 0 0 5px;
 }
 
 .page-item:last-child {
+  z-index: 2;
   border-radius: 0 5px 5px 0;
 }
 .page-link {
   text-decoration: none;
   font: 300 0.7vmax "Roboto";
+  z-index: 2;
   color: rgb(80, 80, 80);
   transition: all 0.3s;
 }
 
 .page-item:hover {
+  z-index: 2;
   background-color: rgb(230, 230, 230);
 }
 
 .page-item:hover .page-link {
+  z-index: 2;
   color: rgb(0, 0, 0);
 }
 
 .pageItemActive {
+  z-index: 2;
   background-color: tomato;
 }
 
 .pageLinkActive {
+  z-index: 2;
   color: white;
 }
 
 .filterBox {
-  width: 10vmax;
-  position: absolute;
+  width: 200px;
+  position:absolute;
+  z-index: 2;
   top: 10vmax;
   left: 4vmax;
 }
 
 .categoryBox {
+  z-index: 4;
   padding: 0%;
 }
 
 .category-link {
   list-style: none;
+  z-index: 2;
   color: rgba(0, 0, 0, 0.61);
-  font: 400 0.8vmax "Roboto";
+
+  font: 400   "Roboto";
   margin: 0.4vmax;
   cursor: pointer;
   transition: all 0.5s;
 }
 .category-link:hover {
+  z-index: 2;
+
   color: tomato;
 }
 
 .filterBox > fieldset {
+  z-index: 2;
   border: 1px solid rgba(0, 0, 0, 0.329);
 }
 
