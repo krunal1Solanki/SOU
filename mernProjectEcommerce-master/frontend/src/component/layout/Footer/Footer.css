@@ -62,11 +62,12 @@ footer {
   text-decoration: none;
   font-size: 1.3vmax;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: white;
+  color: #05386B;
+
   transition: all 0.5s;
   margin: 0.5vmax;
 }
 
 .rightFooter > a:hover {
-  color: #eb4034;
+  color: #05386B;
 }

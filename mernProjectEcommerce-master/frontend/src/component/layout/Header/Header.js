@@ -12,7 +12,7 @@ import MailIcon from "@material-ui/icons/ContactMail";
 
 
 const options = {
-  burgerColorHover: "#eb4034",
+  burgerColorHover: "#05386B",
   logo: ecommerceImage, // assign the image to the logo property
   logoWidth: "20vmax",
   burgerMarginBottom : "5px",

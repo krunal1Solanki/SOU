@@ -101,7 +101,7 @@ const Products = ({ match }) => {
             </ul>
 
             <fieldset>
-              <Typography component="legend">Ratings Above</Typography>
+              <Typography component="legend" className="rating">Ratings Above</Typography>
               <Slider
                 value={ratings}
                 onChange={(e, newRating) => {
