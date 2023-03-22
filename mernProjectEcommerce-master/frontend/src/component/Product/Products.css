@@ -25,7 +25,6 @@
   justify-content: center;
   margin: 6vmax;
 }
-
 .pagination {
   display: flex;
   justify-content: center;
@@ -34,7 +33,7 @@
 }
 
 .page-item {
-  background-color: rgb(255, 255, 255);
+  background-color:#5CDB95;
   list-style: none;
   border: 1px solid rgba(0, 0, 0, 0.178);
   z-index: 2;

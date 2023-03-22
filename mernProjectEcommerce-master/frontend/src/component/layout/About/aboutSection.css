@@ -2,7 +2,7 @@
   height: 100vh;
   width: 100vw;
   max-width: 100%;
-  background-color: white;
+  background-color: #EDF5E1;
   display: grid;
   grid-template-columns: 4fr 4fr;
   position: fixed;
@@ -11,16 +11,17 @@
 .aboutSectionGradient {
   background-image: linear-gradient(
     to bottom right,
-    rgb(78, 81, 255),
-    rgb(74, 137, 189)
-  );
+      #5CDB95,
+      #8EE4AF
+  
+    );
 }
 
 .aboutSectionContainer {
   position: absolute;
   left: 50%;
   top: 50%;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   width: 80vw;
   height: 80vh;
   transform: translateX(-50%) translateY(-50%);
@@ -86,7 +87,7 @@
 }
 
 .instagramSvgIcon {
-  color: rgb(144, 81, 202);
+  color: #9051ca;
 }
 
 @media screen and (max-width: 600px) {
