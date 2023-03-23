@@ -1,7 +1,7 @@
 import React from "react";
 import { ReactNavbar } from "overlay-navbar";
 import logo from "../../../images/logo.png";
-import ecommerceImage from "../../../images/ecommerce.png";
+import ecommerceImage from "../../../images/sou.svg";
 import "../Header/Header.css";
 import Search from "../../Product/Search";
 import PersonIcon from "@material-ui/icons/Home";
@@ -12,9 +12,8 @@ import MailIcon from "@material-ui/icons/ContactMail";
 
 
 const options = {
-  burgerColorHover: "#05386B",
   logo: ecommerceImage, // assign the image to the logo property
-  logoWidth: "20vmax",
+  logoWidth: "10vmax",
   burgerMarginBottom : "5px",
   navColor1: "white",
   logoHoverSize: "10px",
@@ -43,7 +42,6 @@ const options = {
   searchIconColorHover: "#eb4034",
   cartIconColorHover: "#eb4034",
   cartIconMargin: "1vmax",
-
   // add background color and style
   navStyle: {
   backgroundColor: "#333",
@@ -57,19 +55,7 @@ const options = {
 const Header = () => {
   return (
     <>
-      <div className="navContainer">
-        <header className="navHeader">
-          <nav>  
-            <ul className="unList">
-              <li className="navList x1"><a className="navLink b1" href="/"><PersonIcon className = "but"/>Home</a></li>
-              <li className="navList"><a className="navLink b2" href="/products"><ShopIcon className = "but"/>Shop</a></li>
-              <li className="navList"><a className="navLink b3" href="/about"><InfoIcon className = "but"/>About</a></li>
-              <li className="navList"><a className="navLink b4"  href="/contact"><MailIcon className = "but"/>Contact</a></li>
-              <li className="navList"><a className="navLink b5" href="/search"><SearchIcon className = "but"/>Search</a></li>
-            </ul>
-          </nav>
-        </header>
-      </div>
+     
       <ReactNavbar {...options} />
     </>
   );

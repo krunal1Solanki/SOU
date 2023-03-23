@@ -7,7 +7,7 @@ import { clearErrors, getProduct } from "../../actions/productAction";
 import { useSelector, useDispatch } from "react-redux";
 import Loader from "../layout/Loader/Loader";
 import { useAlert } from "react-alert";
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+import NavigationBar from "../layout/Header/NavigationBar";
 const Home = () => {
   const alert = useAlert();
   const dispatch = useDispatch();
@@ -27,21 +27,26 @@ const Home = () => {
         <Loader />
       ) : (
         <Fragment>
+          <NavigationBar/>
           <MetaData title="ECOMMERCE" />
-
-          <div className="banner">
-            <p>Welcome to Shape Of You</p>
-            <h1>FIND AMAZING PRODUCTS BELOW</h1>
-
+          <div className="heading">
+          </div>
+            <div className="banner">
+            {/* <p>Welcome to Shape Of You</p>
+            <h1>FIND AMAZING PRODUCTS BELOW</h1> */}
+          
+            
             <a href="#container">
-              <button>
+              <button className="scroll">
                 Scroll <CgMouse />
               </button>
             </a>
-          </div>
+            </div>
+            
 
           <h2 className="homeHeading">Featured Products</h2>
-
+          
+      
           <div className="container" id="container">
             {products &&
               products.map((product) => (

@@ -3,13 +3,15 @@ import "./aboutSection.css";
 import { Button, Typography, Avatar } from "@material-ui/core";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import InstagramIcon from "@material-ui/icons/Instagram";
+import NavigationBar from "../Header/NavigationBar";
 const About = () => {
   const visitInstagram = () => {
     window.location = "https://instagram.com/__.k.r.u.n.a.a.a.l.__";
   };
   return (
-    <div className="aboutSection">
-      <div></div>
+    <>
+    <NavigationBar/>
+<div className="aboutSection">
       <div className="aboutSectionGradient"></div>
       <div className="aboutSectionContainer">
         <Typography component="h1">About Us</Typography>
@@ -45,7 +47,7 @@ const About = () => {
         </div>
       </div>
     </div>
-  );
+    </>);
 };
 
 export default About;

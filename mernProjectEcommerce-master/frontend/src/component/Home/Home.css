@@ -8,7 +8,10 @@
   left: 0;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
-
+.scroll {
+  position: relative;
+  margin-top: 470px;
+}
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -141,4 +144,15 @@
   font-size: 1.2vmax;
   margin: 1vmax 0.5vmax;
   margin-bottom: 0;
+}
+
+
+.heading {
+  background-image: url("../../images/c1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  
 }

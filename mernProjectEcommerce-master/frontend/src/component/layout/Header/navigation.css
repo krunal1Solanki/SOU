@@ -1,0 +1,88 @@
+
+  
+  .unList {
+    right: 10px;
+    background-color:#121212;
+    border-bottom: 6px #00dcfb solid;
+    margin: 0 auto;
+    height: 40px;
+    display: flex;
+    padding: 18px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 60%;
+    list-style: none;
+  }
+  .but {
+    padding: 2px;
+    border-radius: 5px;
+    color: #9be4ee;
+    
+    }
+  .navLink {
+    display: flex;
+    align-items: center;
+    border-radius: 3.4px;
+    padding: 20px;
+    color: white;
+    
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 20px;
+    word-spacing: 10px;
+    top :5.6%;
+    gap: 12px;
+  }
+  
+  .b1:hover {
+    color : #05386B;
+    font-weight: bolder;
+    font-size: 21px;
+    border-radius: 10.5px;
+    background-color: #dcfaea;
+    background-color: white;
+  }
+  
+  .b2:hover {
+    color : #05386B;
+    font-weight: bolder;
+    font-size: 21px;
+    border-radius: 10.5px;
+    background-color: #dcfaea;
+    background-color: white;
+  }
+  .b3:hover {
+    color : #05386B;
+    font-weight: bolder;
+    font-size: 21px;
+    border-radius: 10.5px;
+    background-color: #dcfaea;
+    background-color: white;
+  }
+  .b4:hover {
+    color : #05386B;
+    font-weight: bolder;
+    font-size: 21px;
+    border-radius: 10.5px;
+    background-color: #dcfaea;
+    background-color: white;
+    
+}
+  .b5:hover {
+    color : #05386B;
+    font-weight: bolder;
+    font-size: 21px;  border-radius: 10.5px;
+    background-color: #dcfaea;
+    background-color: white;
+  
+  }
+  
+  .navContainer {
+    padding: 15px;
+    background-image: url('../../../images/black-linen.png');
+    
+    background-color: #00dcfb ;
+
+}
+  

@@ -9,6 +9,7 @@ import Slider from "@material-ui/core/Slider";
 import { useAlert } from "react-alert";
 import Typography from "@material-ui/core/Typography";
 import MetaData from "../layout/MetaData";
+import NavigationBar from "../layout/Header/NavigationBar";
 
 const categories = [
   "Protein",
@@ -66,6 +67,7 @@ const Products = ({ match }) => {
         <Loader />
       ) : (
         <Fragment >
+          <NavigationBar/>
           <MetaData title="PRODUCTS -- ECOMMERCE" />
           <h2 className="productsHeading">Products</h2>
 
@@ -87,7 +89,7 @@ const Products = ({ match }) => {
               max={25000}
             />
 
-            <Typography>Categories</Typography>
+            <Typography className="cat">Categories</Typography>
             <ul className="categoryBox">
               {categories.map((category) => (
                 <li
